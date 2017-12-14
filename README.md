@@ -6,17 +6,25 @@ This project contains a set of example files relating to:
  * CATH Functional Families (`ff`)
  * CATH Structural Clusters (`ff_ssg5`)
 
- ```
- $ ls -1 example_data/
- 1.10.510.10-ff-77378.faa
- 1.10.510.10-ff-77378.reduced.filter.log
- 1.10.510.10-ff-77378.reduced.sto
- 1.10.510.10-ff_ssg5-21.aln_reps.cora
- 1.10.510.10-ff_ssg5-21.aln_reps.cora.fa
- 1.10.510.10-ff_ssg5-21.reps
- 1.10.510.10-ff_ssg5-21.reps.fa
- 1.10.510.10-ff_ssg5-21.scorecons
- ```
+The files are generally in the form:
+
+`{SUPERFAMILY}-{CLUSTER_TYPE}-{CLUSTER_NUMBER}.{FILE_TYPE}`
+
+eg
+
+```
+example_data/
+├── 1.10.510.10-ff-77378.faa
+├── 1.10.510.10-ff-77378.reduced.filter.log
+├── 1.10.510.10-ff-77378.reduced.sto
+├── 1.10.510.10-ff_ssg5-21.aln_reps.cora
+├── 1.10.510.10-ff_ssg5-21.aln_reps.cora.fa
+├── 1.10.510.10-ff_ssg5-21.expanded.fa
+├── 1.10.510.10-ff_ssg5-21.expanded.sto
+├── 1.10.510.10-ff_ssg5-21.reps
+├── 1.10.510.10-ff_ssg5-21.reps.fa
+└── 1.10.510.10-ff_ssg5-21.scorecons
+```
 
 More info on each of these files below.
 
