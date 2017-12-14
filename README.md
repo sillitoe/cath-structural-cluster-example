@@ -30,15 +30,18 @@ More info on each of these files below.
 
 ## Overview
 
-Basic idea of generating superfamilies of protein domains in CATH-Gene3D:
+A reminder on the basic idea of generating superfamilies of protein domains in CATH-Gene3D:
 
  1. Identify structural domains within PDB
  1. Group structural structures where there is clear evidence of common evolutionary ancestor
  1. Use HMM to identify where these structural domains lie on all known sequences
 
-Within a CATH-Gene3D superfamily, we generate families of functionally related sequences (FunFams).
-We then use structural alignments to try and stick these potentially remote FunFams back together
-while maintaining structurally conserved regions.
+Then, within these superfamilies we:
+
+ 1. generate families of functionally related sequences (FunFams).
+ 1. cluster a structural representatives from each FunFam
+ 1. perform a multiple structural alignment of these representatives 
+ 1. use this structural alignment to stick the potentially remote sequences in the FunFams back together (ie while maintaining structurally conserved regions)
 
 ## Functional Families (FunFams)
 
