@@ -1,5 +1,5 @@
 
-# Structural Clusters
+# Expanded Structural Clusters in CATH
 
 This project contains a set of example files relating to:
 
